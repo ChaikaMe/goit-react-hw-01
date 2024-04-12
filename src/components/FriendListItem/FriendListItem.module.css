@@ -1,0 +1,30 @@
+.container{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.image{
+    width: 70px;
+    height: 70px;
+}
+
+.text{
+    margin: 0;
+    font-size: 24px;
+}
+
+.textGreen{
+    font-size: 20px;
+    color: green;
+}
+
+.textRed{
+    font-size: 20px;
+    color: red;
+}

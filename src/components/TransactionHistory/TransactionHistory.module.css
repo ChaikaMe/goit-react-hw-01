@@ -1,0 +1,27 @@
+.table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+.title, .text {
+    border: 2px solid #000;
+    padding: 8px;
+}
+
+.title{
+    color: #fff;
+    background-color: rgb(54, 52, 52);
+}
+
+.text{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.item{
+    text-align: center;
+}
+
+.item:nth-child(odd){
+    background-color: lightgray;
+}

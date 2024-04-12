@@ -1,0 +1,61 @@
+.profileContainer{
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.userData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: darkslategray;
+}
+
+.text{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.textBald{
+    font-weight: 500;
+}
+
+.textGray{
+    color: gray;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    gap: 3px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    border-top: 3px solid gray;
+}
+
+.listItem{
+    display: flex;
+    width: calc(100%/3);
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 150px;
+    background-color: lightgray;
+}
